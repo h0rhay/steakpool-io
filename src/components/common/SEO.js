@@ -5,16 +5,12 @@ const SEO_DATA = {
   description: 'A steakpool gatsby starter',
   title: 'Steakpool',
   url: '',
-  author: 'ajayns',
+  author: 'h0rhay',
   keywords: ['gatsby', 'site', 'steakpool'],
   twitter: {
-    id: '@ajayns08',
+    id: '@h0rhay',
     img: '',
-  },
-  facebook: {
-    id: '',
-    img: '',
-  },
+  }
 };
 
 const SEO = () => {
@@ -40,7 +36,6 @@ const SEO = () => {
       <meta name="author" content={SEO_DATA.author} />
       <title>{SEO_DATA.title}</title>
       <html lang="en" />
-      {/* <link href="https://fonts.googleapis.com/css?family=Montserrat:800&display=swap" rel="stylesheet"></link> */}
     </Helmet>
   );
 };
